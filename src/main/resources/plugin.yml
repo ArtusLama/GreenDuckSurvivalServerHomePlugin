@@ -1,0 +1,23 @@
+name: SurvivalserverArtus
+version: '${project.version}'
+main: de.artus.survivalserverartus.Main
+api-version: 1.19
+authors: [ _Artus_ ]
+description: This plugin is for the GreenDuck SurvivalServer
+commands:
+  sethome:
+    description: Sets your home at your current location
+  removehome:
+    description: Removes your home
+    aliases:
+      - delhome
+      - deletehome
+  home:
+    description: Teleports you to your home
+    aliases:
+      - tphome
+  listhomes:
+    description: Lists all your homes
+    aliases:
+      - homes
+      - homelist
